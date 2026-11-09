@@ -19,7 +19,7 @@ Bot em Python para pesquisar músicas, artistas e álbuns no Telegram usando a A
 | `/album` | Buscar álbum |
 | `/ajuda` | Instruções de uso |
 
-Também é possível pesquisar diretamente: `/musica Yellow Coldplay`.
+Também é possível pesquisar diretamente:
 
 ## Funcionamento
 
