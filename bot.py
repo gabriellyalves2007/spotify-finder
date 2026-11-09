@@ -1,4 +1,4 @@
-"""Spotify Finder: funções, dicionários, repetições e requisições HTTP."""
+
 import os
 import time
 import unicodedata
@@ -7,7 +7,6 @@ from html import escape
 import requests
 from dotenv import load_dotenv
 
-# Reutiliza as conexões, como no exemplo de requests.Session dos slides.
 telegram = requests.Session()
 spotify = requests.Session()
 
@@ -244,7 +243,7 @@ def main():
                 break
             time.sleep(3)
         except (requests.RequestException, ValueError, KeyError):
-            # Não imprime a URL da requisição, pois ela contém o token secreto.
+            
             print("Falha ao processar uma mensagem. Tentando novamente...")
             time.sleep(3)
 
